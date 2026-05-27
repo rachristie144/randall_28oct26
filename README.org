@@ -5,7 +5,21 @@
   Initiated.
 :END:
 
-This is a presentation that I'm to give at the Randall on [2026-05-28 Thu] - the supporting notes for this are at: [[id:5730A54C-156B-4050-A4CD-E045970FB902][Forum with the Randall on [2026-05-28 Thu]​]].
+This is a presentation that e-Research are giving at the Randall Centre on [2026-05-28 Thu].
 
-This set of slides are based upon those prepared before - I think for my last presentation - at Informatics, and copied-over from [[~/eresearch/informatics/present_23feb26]].
+The presentation is in HTML format, using ~reveal.js~.
 
+To view the presentation:
+
+1. Download the HTML file [[./slides.html]] to your device
+2. Open the downloaded file in a web browser (Firefox/Chrome - Safari can be a bit flaky) with ~File -> Open~
+
+To navigate through the slides: 
+
+- use your cursor keys ➡️⬅️ and ⬇️⬆️, or
+- use your mouse on the arrows in the bottom right hand side
+- hit ~Esc~ to get an overview of all slides, and select side with mouse
+
+For a simple overview of the slide /content/ (in a single scrolling file, with ugly formatting) within the ~github~ repo, click on the [[./slides.org]] file.
+
+Presentation uses https://github.com/yjwen/org-reveal. 🤩   

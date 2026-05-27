@@ -4,10 +4,7 @@
 
 #+OPTIONS: ^:{} 
 #+OPTIONS: timestamp:nil
-# Set so the entire presentation is (meant to be - untested) contained in a single file
-#  - [2021-05-05 Wed 18:10] works, apart from the animated gif background - no great loss
-# 
-# #+OPTIONS: reveal_single_file:t 
+#+OPTIONS: reveal_single_file:t 
 
 #+REVEAL_INIT_OPTIONS: width:2000, height:800, margin: 0.1, minScale:0.2, maxScale:2.5, transition:'default'
 #+OPTIONS: toc:nil
@@ -19,7 +16,7 @@
 # *NB* LOOK AT THE PATH BELOW - THIS WILL LEAD TO PROBLEMS IN THE FUTURE.
 #+REVEAL_ROOT: file:///Users/richardchristie/reveal.js/reveal.js-master
 
-#+REVEAL_TITLE_SLIDE:<h1><I>%t</I></h1><h2>%e</h2><h4>27th May, 2026</h4>
+#+REVEAL_TITLE_SLIDE:<h1><I>%t</I></h1><h2>%e</h2><h4>28th May, 2026</h4><h4>https://github.com/rachristie144/randall_28oct26/</h4>
 
 # league, blood, black, night, moon, beige, serif, simple, sky, solarized, white
 
@@ -34,9 +31,9 @@
 ** High level definition
 
 #+ATTR_REVEAL: :frag (appear)
-- e-Research [[color:lawngreen][/enables/]] and [[color:plum][/facilitates/]]
+- e-Research [[color:lawngreen][/enables/]] and [[color:plum][/facilitates/]] †
   - [[color:aqua][computational-]] and [[color:maroon][data-intensive]] research, and
-  - research using [[color:orange][sensitive data]] †
+  - research using [[color:orange][sensitive data]] 
 
 - e-Research provides the [[color:red][/infrastructure/]] and [[color:hotpink][/platforms/]] required by a wide-range of research areas
 
@@ -54,14 +51,6 @@
 - [[color:palegreen][Research Cloud (IaaS)]]
 - [[color:navajowhite][Research Software Engineering (RSE)]]
 
-** e-Research vision
-
-#+ATTR_REVEAL: :frag (appear)
-- to be considered an [[color:salmon][indispensible partner]] in research across KCL
-- to support [[color:aqua][all academic disciplines]] which are dependent upon research data or specialised computing skills or platforms
-- to build a [[color:chartreuse][flexible infrastructure and support]]
-- to [[color:orange][maximise research income]]
-  
 ** Simplistic organisational view of e-Research
 
 #+NAME: fig:eresearch_beans
@@ -120,12 +109,12 @@ CREATE platform for S/LLM research:
 
 https://ai.create.kcl.ac.uk
 
-/Not/ Chat-GPT, but has advantages for some areas of research:
+/Not/ Chat-GPT/Claude, but has advantages for some areas of research:
 
 #+ATTR_REVEAL: :frag (appear)
 - data is [[color:crimson][kept local]] to KCL
 - [[color:orange][different models]] can be installed, tested, augmented (SLMs) 🤗
-- use as reasoning engine for /autonomous labs/
+- e.g., use as reasoning engine for /autonomous labs/
 
 ** Trusted Research Environment (TRE)
 
@@ -144,8 +133,8 @@ https://docs.er.kcl.ac.uk/CREATE/TRE/tre/
 
 #+ATTR_REVEAL: :frag (appear) :align left
 - [[color:yellow][Flexible platform]] for hosting wide range of applications and tools
-- For example, AI [[color:cyan][inference plaform]] with model trained upon [[color:salmon][electronic health record (EHR)]] data from KCH and SLaM
 - https://foresight.sites.er.kcl.ac.uk [from group of Prof. Richard Dobson (IoPPN)], running on a GPU
+- https://kdl.kcl.ac.uk King's Digital Lab infrastructure (>100 servers)
 - /Autonomous lab/ inference site: https://sdl.sites.er.kcl.ac.uk/
 - e-Research cloud provides an "AWS-like" (but very light) [[color:orange][portal]] for spining-up infrastructure
 
@@ -208,9 +197,6 @@ The past three years, we've recruited an [[color:red][undergrad]] from Informati
 #+ATTR_ORG: :width 20%
 #+ATTR_HTML: :width 20% :align left
 [[./img/Abiha.jpg]]
-
-#+ATTR_REVEAL: :frag (appear)
-We also support an RSE from Informatics - [[color:darkseagreen][Peter Baudins]] 
 
 * Costing models & Governance
 

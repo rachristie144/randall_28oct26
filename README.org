@@ -1,9 +1,5 @@
 
 * README
-:LOGBOOK:
-- Note taken on [2026-05-27 Wed 13:56] \\
-  Initiated.
-:END:
 
 This is a presentation that e-Research are giving at the Randall Centre on [2026-05-28 Thu].
 

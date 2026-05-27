@@ -1,0 +1,11 @@
+
+* README
+:LOGBOOK:
+- Note taken on [2026-05-27 Wed 13:56] \\
+  Initiated.
+:END:
+
+This is a presentation that I'm to give at the Randall on [2026-05-28 Thu] - the supporting notes for this are at: [[id:5730A54C-156B-4050-A4CD-E045970FB902][Forum with the Randall on [2026-05-28 Thu]​]].
+
+This set of slides are based upon those prepared before - I think for my last presentation - at Informatics, and copied-over from [[~/eresearch/informatics/present_23feb26]].
+

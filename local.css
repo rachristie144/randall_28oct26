@@ -1,0 +1,42 @@
+.reveal p {
+    text-align: left;
+}
+
+.reveal tbody {
+    font-size: 60%; 
+}
+
+.reveal img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reveal h1 {
+    font-size: 150%;
+}
+
+.reveal h2 {
+    font-size: 130%;
+}
+
+.reveal h3 {
+    font-size: 110%;
+}
+
+.reveal h4 {
+    color: green;
+}
+
+.reveal h5 {
+    font-size: 60%;
+    color: blue;
+}    
+
+.reveal q {
+    font-size: 40%;
+}
+
+.reveal blockquote {
+    font-size: 60%;
+}

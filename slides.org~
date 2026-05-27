@@ -1,0 +1,285 @@
+#+Title: e-Research: what we (can) do for Informatics
+#+Author: [[color:yellow][Dr. Richard A. Christie]]
+#+Email: richard.christie@kcl.ac.uk 
+
+#+OPTIONS: ^:{} 
+#+OPTIONS: timestamp:nil
+# Set so the entire presentation is (meant to be - untested) contained in a single file
+#  - [2021-05-05 Wed 18:10] works, apart from the animated gif background - no great loss
+# 
+# #+OPTIONS: reveal_single_file:t 
+
+#+REVEAL_INIT_OPTIONS: width:2000, height:800, margin: 0.1, minScale:0.2, maxScale:2.5, transition:'default'
+#+OPTIONS: toc:nil
+#+REVEAL_THEME: moon
+#+REVEAL_HLEVEL: 1
+#+REVEAL_HEAD_PREAMBLE: <meta name="description" content="Org-Reveal Introduction.">
+#+REVEAL_PLUGINS: (markdown notes)
+#+REVEAL_EXTRA_CSS: ./local.css
+# *NB* LOOK AT THE PATH BELOW - THIS WILL LEAD TO PROBLEMS IN THE FUTURE.
+#+REVEAL_ROOT: file:///Users/richardchristie/reveal.js/reveal.js-master
+
+#+REVEAL_TITLE_SLIDE:<h1><I>%t</I></h1><h2>%e</h2><h4>23rd February, 2026</h4>
+
+# league, blood, black, night, moon, beige, serif, simple, sky, solarized, white
+
+* What is e-Research?
+
+#+NAME: fig:eresearch_team
+#+ATTR_ORG: :width 300
+#+ATTR_HTML: :width 1400
+
+[[./img/e-research-web-pic.xaf3019d7.png]]
+
+** High level definition
+
+#+ATTR_REVEAL: :frag (appear)
+- e-Research [[color:lawngreen][/enables/]] and [[color:plum][/facilitates/]]
+  - [[color:aqua][computational-]] and [[color:maroon][data-intensive]] research, and
+  - research using [[color:orange][sensitive data]] 
+
+- e-Research provides the [[color:red][/infrastructure/]] and [[color:hotpink][/platforms/]] required by a wide-range of research areas
+
+- e-Research provides [[color:yellow][/software development skills/]] and  [[color:cyan][/specialist support/]] to support cutting-edge research at KCL
+
+** What we provide for you (summary)
+
+#+ATTR_REVEAL: :frag (appear)
+- [[color:pink][Research Data Storage (RDS)]]
+- [[color:peru][High Performance Computing (HPC)]]
+- [[color:skyblue][AI (Deep Learning) plaforms]]
+- [[color:tomato][Trusted Research Environment (TRE)]]
+- [[color:palegreen][Research Cloud (IaaS)]]
+- [[color:navajowhite][Research Software Engineering (RSE)]]
+
+** e-Research vision
+
+#+ATTR_REVEAL: :frag (appear)
+- to be considered an [[color:salmon][indispensible partner]] in research across KCL
+- to support [[color:aqua][all academic disciplines]] which are dependent upon research data or specialised computing skills or platforms
+- to build a [[color:chartreuse][flexible infrastructure and support]]
+- to [[color:orange][maximise research income]]
+  
+** Simplistic organisational view of e-Research
+
+#+NAME: fig:eresearch_beans
+#+ATTR_ORG: :width 60%
+#+ATTR_HTML: :width 100%
+
+[[./img/eresearch_beans_21oct25.png]]
+
+** Computational methdologies
+
+#+NAME: fig:figure name
+#+ATTR_ORG: :width 500
+#+ATTR_HTML: :width 90%
+[[./img/comp_methodologies.png]]
+
+* Research Infrastructure/Platforms
+
+[[./img/eresearch_beans_21oct25_platforms.png]]
+
+** CREATE
+
+[[color:crimson][Computational]] [[color:orange][Research]], [[color:yellow][Engineering]] [[color:green][and Technology]] [[color:fuchsia][Environment]] (CREATE)
+
+CREATE includes a /traditional/ [[color:lime][HPC environment]]
+
+#+ATTR_REVEAL: :frag (appear) :align left
+- linux [[color:crimson][command line]]
+- [[color:yellow][batch processing]] with ~slurm~
+- wide range of [[color:khaki][scientific applications]] installed
+- ~18,000 [[color:lightsalmon][CPU]] cores and ~400 [[color:magenta][GPUs]] available
+
+** CREATE OnDemand
+
+Web-interface for accessing CREATE platform
+
+#+ATTR_REVEAL: :frag (appear)
+- [[color:mediumorchid][command shell interface via web browser]]
+- [[color:lightsteelblue][Jupyter Lab]] notebooks
+- [[color:darkorange][RStudio]]
+- [[color:lavender][Desktop environment]]
+
+👉 https://hpc-web.create.kcl.ac.uk/pun/sys/dashboard/ 
+
+** CREATE AI
+
+/Deep Learning/ workflows are supported on CREATE through:
+
+#+ATTR_REVEAL: :frag (appear)
+- NVIDIA [[color:gold][GPUs]] - incl. [[color:orange][new AI+ Programme GPUs]]
+- popular [[color:orchid][training frameworks]], ~PyTorch~, ~TensorFlow~, etc.
+- NVIDIA [[color:palegreen][software stack]]
+
+** CREATE AI - 2
+
+CREATE platform for S/LLM research:
+
+https://ai.create.kcl.ac.uk
+
+/Not/ Chat-GPT, but has advantages for some areas of research:
+
+#+ATTR_REVEAL: :frag (appear)
+- data is [[color:crimson][kept local]] to KCL
+- [[color:orange][different models]] can be installed, tested, augmented (SLMs) 🤗
+
+** Trusted Research Environment (TRE)
+
+A [[color:hotpink][Trusted Research Environment (TRE)]] is a highly secure digital platform that allows [[color:cyan][approved researchers]] to access and analyse [[color:yellow][sensitive data]] without the data ever leaving the secure environment.
+
+TREs are becoming increasingly popular in research due to:
+
+#+ATTR_REVEAL: :frag (appear)
+- [[color:lime][compliance requirements]] from funders & regulators
+- increased [[color:yellow][cyber security threat landscape]]
+- increased use of [[color:aqua][sensitive data]] in research
+
+https://docs.er.kcl.ac.uk/CREATE/TRE/tre/
+
+** Research Cloud/IaaS
+
+#+ATTR_REVEAL: :frag (appear) :align left
+- [[color:yellow][Flexible platform]] for hosting wide range of applications and tools
+- For example, AI [[color:cyan][inference plaform]] with model trained upon [[color:salmon][electronic health record (EHR)]] data from KCH and SLaM
+- https://foresight.sites.er.kcl.ac.uk [from group of Prof. Richard Dobson (IoPPN)]
+- running on a GPU
+
+* Development & support
+
+[[./img/eresearch_beans_21oct25_dev_support.png]]
+
+** Research Software Engineering (RSE)
+
+The [[color:lime][Research Software Engineering]] team can develop the software required to enable and facilitate your research.
+
+The team have a wide range of experience and skills developing code for a [[color:orange][range of academic disciplines.]]
+
+Support is provided by:
+
+#+ATTR_REVEAL: :frag (appear) :align left
+- [[color:fuchsia][consultation and advice]]
+- being [[color:yellow][costed into grants]] for [[color:cya][hands-on]] dev work
+
+** Project design and co-writing
+
+The e-Research team can assist with [[color:orange][project design]] and [[color:deeppink][co-writing]] (for projects with computational-, data-science or sensitive data components)
+
+We act as [[color:deepskyblue][Co-Investigators]] where required.
+
+We have a comprehensive [[color:gold][Costing Model]] for inclusion of costs in grants.
+
+➡️ https://docs.er.kcl.ac.uk/costing_grants/
+
+** Training
+
+Example courses being offered in the coming weeks:
+
+#+ATTR_REVEAL: :frag (appear) :align left
+- [[color:greenyellow][Introduction to High Performance Computing]] with CREATE
+- Software Carpentry: [[color:lavender][Introduction to Python, version control, and the Unix shell]]
+- [[color:mediumturquoise][Performance Profiling & Optimisation for Python]]
+- [[color:navajowhite][Introduction to Containers]]
+
+https://docs.er.kcl.ac.uk/training/
+
+More information on courses is available on KCL SkillsForge.
+
+** Also
+
+The past three years, we've recruited an [[color:red][undergrad]] from Informatics to work in the team as part of their [[color:orange][industrial placement year]]:
+
+- [[color:lime][Harshit Sharma]] ('23-'24)
+- [[color:fuchsia][Mohammed Ibrahim Uddin]] ('24-'25)
+- [[color:cyan][Abiha Tasnim]] ('25-'26)
+
+#+ATTR_ORG: :width 20%
+#+ATTR_HTML: :width 20% :align left
+[[./img/Harry.png]]
+
+#+ATTR_ORG: :width 20%
+#+ATTR_HTML: :width 20% :align left
+[[./img/Ibrahim.jpg]]
+
+#+ATTR_ORG: :width 20%
+#+ATTR_HTML: :width 20% :align left
+[[./img/Abiha.jpg]]
+
+
+#+ATTR_REVEAL: :frag (appear)
+We also support an RSE from Informatics - [[color:darkseagreen][Peter Baudins]] 
+
+* Costing models & Governance
+
+[[./img/grant_costing.png]]
+
+https://docs.er.kcl.ac.uk/costing_grants/
+
+** Organisational/budget structure
+
+e-Research sits in the [[color:deeppink][Research Management and Innovation Directorate]] (RMID) in Professional Services (PS).
+
+#+ATTR_REVEAL: :frag (appear)
+We have a staff budget, and an annual capital budget for minor maintenance/hardware upgrades (from the /Research Infrastructure Fund/).
+
+#+ATTR_REVEAL: :frag (appear)
+All software/licenses/warranties are paid through [[color:lavender][income from research grants]]
+
+** Free basic usage
+:PROPERTIES:
+:ID:       73B10B4D-A2BE-4430-9657-65D9585129D5
+:END:
+:LOGBOOK:
+- Note taken on [2026-02-23 Mon 08:32] \\
+  Initiated.
+:END:
+
+Research Computing facilities & support are an [[color:red][essential]] and [[color:cyan][integral]] component of a research university.
+
+#+ATTR_REVEAL: :frag (appear)
+For this reason, and to support student development skills and basic/PoC usage, e-Research facilities and support have [[color:yellow][free-to-use]] components:
+
+#+ATTR_REVEAL: :frag (appear)
+- [[color:lime][HPC]]: free to use, resources shared with queue scheduler
+- [[color:lightsalmon][RDS]]: free 5 TB per funded project
+- [[color:orange][Private cloud/IaaS]]: small vCPU and memory projects
+
+** Costing model
+
+Costing model based upon TRAC methodology; some components are TRAC-listed, and others aren't
+
+#+ATTR_REVEAL: :frag (appear)
+- [[color:magenta][pay-as-you-go GPU]] usage model (£0.12-£0.98 per hour)
+- [[color:navajowhite][GPU/CPU server]] hosting (£2,194-£3,275 per server)
+- [[color:tan][RDS]] (£16.36-£60 per TB per year)
+- [[color:gold][Private Cloud]]
+
+More information at: https://docs.er.kcl.ac.uk/costing_grants/
+
+** Governance
+
+There was formerly the [[color:yellow][e-Research Governance Board]] to ensure that we deliver a relevant, quality service to the research community.
+
+A new model currently being developed:
+
+#+ATTR_REVEAL: :frag (appear)
+- [[color:fuchsia][Digital Research Infrastructure Subcommittee]] reporting into
+- [[color:cyan][Research Infrastructure Strategy Group]] Chaired by the /Dean for Research Infrastructure/
+
+#+ATTR_REVEAL: :frag (appear)
+Chair of the [[color:lime][Digital Research Infrastructure Subcommittee]] is David Moxey from Engineering. Membership to be identified.
+
+* More information
+
+Help and support is provided in three tiers:
+
+#+ATTR_REVEAL: :frag (appear) :align left
+1. [[color:lightpink][User docs]]: https://docs.er.kcl.ac.uk
+2. [[color:lightsteelblue][User Forum]]: https://forum.er.kcl.ac.uk
+3. [[color:lime][Helpdesk]]: support@er.kcl.ac.uk  (/not/ IT! ❌)
+
+(we also have a periodic [[color:crimson][Newsletter]])
+
+* Questions? 
+
+[[./img/Q_loop.gif]]

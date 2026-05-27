@@ -16,7 +16,7 @@
 # *NB* LOOK AT THE PATH BELOW - THIS WILL LEAD TO PROBLEMS IN THE FUTURE.
 #+REVEAL_ROOT: file:///Users/richardchristie/reveal.js/reveal.js-master
 
-#+REVEAL_TITLE_SLIDE:<h1><I>%t</I></h1><h2>%e</h2><h4>28th May, 2026</h4><h4>https://github.com/rachristie144/randall_28oct26/</h4>
+#+REVEAL_TITLE_SLIDE:<h1><I>%t</I></h1><h2>%e</h2><h4>28th May, 2026</h4><h3>https://github.com/rachristie144/randall_28oct26/</h3>
 
 # league, blood, black, night, moon, beige, serif, simple, sky, solarized, white
 

@@ -4,7 +4,7 @@
 
 #+OPTIONS: ^:{} 
 #+OPTIONS: timestamp:nil
-#+OPTIONS: reveal_single_file:t 
+# #+OPTIONS: reveal_single_file:t 
 
 #+REVEAL_INIT_OPTIONS: width:2000, height:800, margin: 0.1, minScale:0.2, maxScale:2.5, transition:'default'
 #+OPTIONS: toc:nil
@@ -46,10 +46,10 @@
 #+ATTR_REVEAL: :frag (appear)
 - [[color:pink][Research Data Storage (RDS)]]
 - [[color:peru][High Performance Computing (HPC)]]
-- [[color:skyblue][AI (Deep Learning) plaforms]]
+- [[color:navajowhite][Research Software Engineering (RSE)]]
+- [[color:skyblue][AI plaforms]]
 - [[color:tomato][Trusted Research Environment (TRE)]]
 - [[color:palegreen][Research Cloud (IaaS)]]
-- [[color:navajowhite][Research Software Engineering (RSE)]]
 
 ** Simplistic organisational view of e-Research
 
@@ -133,9 +133,9 @@ https://docs.er.kcl.ac.uk/CREATE/TRE/tre/
 
 #+ATTR_REVEAL: :frag (appear) :align left
 - [[color:yellow][Flexible platform]] for hosting wide range of applications and tools
-- https://foresight.sites.er.kcl.ac.uk [from group of Prof. Richard Dobson (IoPPN)], running on a GPU
-- https://kdl.kcl.ac.uk King's Digital Lab infrastructure (>100 servers)
-- /Autonomous lab/ inference site: https://sdl.sites.er.kcl.ac.uk/
+- https://foresight.sites.er.kcl.ac.uk [from group of Richard Dobson (IoPPN)], running on a GPU
+- https://kdl.kcl.ac.uk King's Digital Lab (A&H) infrastructure (>100 servers)
+- /Autonomous lab/ inference site: https://sdl.sites.er.kcl.ac.uk/ [from group of Miao Guo (NMES)]
 - e-Research cloud provides an "AWS-like" (but very light) [[color:orange][portal]] for spining-up infrastructure
 
 * Development & support
@@ -166,7 +166,7 @@ We have a comprehensive [[color:gold][Costing Model]] for inclusion of costs in 
 
 ** Training
 
-Example courses being offered in the coming weeks:
+Example courses being offered in recent months:
 
 #+ATTR_REVEAL: :frag (appear) :align left
 - [[color:greenyellow][Introduction to High Performance Computing]] with CREATE
